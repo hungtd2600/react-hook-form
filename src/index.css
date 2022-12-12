@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 100px;
+  width: 1144px;
+}
+.errormessage {
+  color: red;
+}
+.group-input {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 20px auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span {
+  margin-top: 12px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}

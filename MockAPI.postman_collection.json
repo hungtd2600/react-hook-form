@@ -1,0 +1,191 @@
+{
+	"info": {
+		"_postman_id": "77f14163-4f26-4285-b62f-a4b2e53d467a",
+		"name": "MockAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20269212"
+	},
+	"item": [
+		{
+			"name": "Find",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://637d8eeb9c2635df8f894843.mockapi.io/api/v1/users",
+					"protocol": "https",
+					"host": [
+						"637d8eeb9c2635df8f894843",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "search",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://637d8eeb9c2635df8f894843.mockapi.io/api/v1/users/1",
+					"protocol": "https",
+					"host": [
+						"637d8eeb9c2635df8f894843",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Verlie\",\n    \"lastName\": \"Ullrich\",\n    \"phone\": \"0123456789\",\n    \"gender\": \"male\",\n    \"email\": \"Maddison_Bode74@hotmail.com\",\n    \"favourites\": [],\n    \"isGraduate\": false,\n    \"school\": \"Abcd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://637d8eeb9c2635df8f894843.mockapi.io/api/v1/users",
+					"protocol": "https",
+					"host": [
+						"637d8eeb9c2635df8f894843",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Patch",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Verlie123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://637d8eeb9c2635df8f894843.mockapi.io/api/v1/users/1",
+					"protocol": "https",
+					"host": [
+						"637d8eeb9c2635df8f894843",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\": \"Elisha\",\n    \"lastName\": \"Schoen\",\n    \"phoneNumber\": \"254-406-3876ssss\",\n    \"gender\": false,\n    \"email\": \"Ezekiel_Cremin@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://637d8eeb9c2635df8f894843.mockapi.io/api/v1/users/1",
+					"protocol": "https",
+					"host": [
+						"637d8eeb9c2635df8f894843",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
